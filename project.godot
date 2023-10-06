@@ -9,24 +9,12 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Camera2D",
-"class": "CameraController",
-"language": "GDScript",
-"path": "res://Scene/CameraController.gd"
-}, {
-"base": "Node2D",
-"class": "PlayerController",
-"language": "GDScript",
-"path": "res://Scripts/Player.gd"
-}, {
 "base": "KinematicBody2D",
 "class": "PlayerMovement",
 "language": "GDScript",
 "path": "res://Scripts/PlayerMovement.gd"
 } ]
 _global_script_class_icons={
-"CameraController": "",
-"PlayerController": "",
 "PlayerMovement": ""
 }
 
